@@ -1,0 +1,30 @@
+.pop-up {
+	background: linear-gradient(180deg, #97c6fa 0%, #bface9 61.98%, #d5a0d7 83.33%, #ed9798 100%);
+	height: 200px;
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	transform: translateY(104%);
+	transition: all 1s ease-in-out;
+}
+.headLine {
+    font-size: 23px;
+    font-weight: 600;
+    color: #fff;
+    text-align: start;
+    width: max-content;
+    margin: 0px auto 1rem auto;
+    padding-top: 20px;
+}
+.btn {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0.55) 100%);
+    backdrop-filter: blur(4px);
+    border: none;
+    border-radius: 90px;
+    color: #fff;
+    font-size: 15px;
+    height: 54px;
+    width: 79%;
+    font-weight: 600;
+}

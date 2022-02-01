@@ -1,0 +1,61 @@
+
+.header > img {
+	margin-left: 30px;
+	margin-top: 3rem;
+}
+.headline > h1 {
+	margin-left: 4rem;
+	margin-top: 2rem;
+	font-weight: 600;
+	font-size: 32px;
+}
+.illustration {
+	width: max-content;
+	margin: auto;
+}
+.action-btn {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.go-to-login {
+	text-align: center;
+	font-size: 17px;
+	margin-top: 1rem;
+}
+.go-to-login > span > a {
+	text-decoration: none;
+}
+.fa-google {
+	background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg)
+		73% 55%/150% 150% no-repeat;
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	-webkit-text-fill-color: transparent;
+	font-size: 27px;
+	font-weight: 600;
+	margin-right: 2rem;
+}
+.fa-facebook {
+	background: #1877f2;
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	-webkit-text-fill-color: transparent;
+	font-size: 27px;
+	font-weight: 600;
+	margin-right: 2rem;
+}
+.buttonStyle {
+    width: 87%;
+    margin: 7px auto;
+    color: #fff;
+    font-size: 17px;
+    background-color: #000;
+    border-radius: 35px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 48px;
+}

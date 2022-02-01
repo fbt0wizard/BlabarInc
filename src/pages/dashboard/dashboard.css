@@ -1,0 +1,62 @@
+.MuiSvgIcon-root {
+	font-size: 49px;
+}
+.top-side {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 89%;
+	margin: auto;
+	padding-top: 1rem;
+}
+.nav-two {
+	display: flex;
+	align-items: center;
+	width: max-content;
+	margin: auto;
+	margin-top: 1.4rem;
+}
+.top-nav {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	background-color: #fff;
+	z-index: 100;
+}
+/* nav section */
+.hamburgerStyle {
+    background: none;
+    border: none;
+}
+.icon26 {
+    font-size: 32px;
+}
+.defaultStyle {
+    color: black;
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    width: 152px;
+    height: 48px;
+    margin: 6px;
+}
+.linkStyle26 {
+    color: black;
+    display: flex;
+    align-items: center;
+    border: 3px solid #000;
+    width: 152px;
+    height: 48px;
+    margin: 6px;
+}
+.img26c {
+    margin-left: 6px;
+}
+.img26e {
+    margin-left: 20px;
+}
+.span26f {
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 4px;
+}

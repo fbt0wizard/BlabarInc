@@ -1,0 +1,21 @@
+.hero {
+    width: max-content;
+    margin: auto;
+    margin-top: 2rem;
+}
+.h2 {
+    font-size: 27px;
+}
+.dots {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 1rem;
+}
+.dots > div {
+	background-color: #04040442;
+	border-radius: 50%;
+	margin: 3px;
+	height: 14px;
+	width: 14px;
+}

@@ -1,0 +1,59 @@
+.select-gender {
+	width: 93%;
+	margin: auto;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	margin-top: 1rem;
+	padding: 1rem 0;
+}
+.instruction {
+	width: 92%;
+	margin: 12px auto;
+	font-weight: 500;
+	font-size: 17px;
+}
+.choose-gender {
+	display: flex;
+	justify-content: center;
+	margin-top: 1rem;
+}
+.choose-gender > figure > img {
+	width: 176px;
+	margin: 1px;
+}
+.figure26 {
+    position: relative;
+}
+.gender-cap {
+	position: absolute;
+	background-color: rgb(0, 0, 0);
+	background-color: rgb(159 159 159 / 60%);
+	padding: 8px 14px;
+	border-radius: 30px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 89%);
+	color: #ffffffed;
+	font-size: 13px;
+	width: max-content;
+}
+.male,
+.female {
+	position: absolute;
+	top: 0;
+	top: 12px;
+	left: 17px;
+	color: yellow;
+	background-color: blue;
+	border-radius: 50%;
+	padding: 3px 3px 0px 3px;
+	opacity: 0;
+}
+.icon19 {
+    font-size: 19px;
+}
+.icon4 {
+    margin-right: 4px;
+}
+.yellowicon {
+    color: yellow;
+}

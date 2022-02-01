@@ -1,0 +1,89 @@
+.nav-to-login {
+	text-align: center;
+	margin-top: 1rem;
+	line-height: 28px;
+}
+.btn-submit {
+	width: max-content;
+	margin: auto;
+	margin-top: 2rem;
+}
+.top-level {
+	display: flex;
+	align-items: center;
+	padding-left: 43px;
+}
+.signup-illustration {
+	text-align: center;
+    margin-top: 4rem;
+}
+.inputs {
+	width: 306px;
+	margin: auto;
+	margin-top: 2rem;
+}
+.primary-button {
+	background: linear-gradient(90deg, #97c6fa 0%, #bface9 58.85%, #d5a0d7 77.6%, #ed9798 100%);
+	border-radius: 27px;
+	font-size: 18px;
+	padding: 10px 76px;
+	border: none;
+}
+.primary-input {
+	width: 100%;
+	margin: 0px 0px 13px 0px;
+	border: none;
+	border-bottom: 1.5px solid #333;
+	height: 37px;
+	outline: none;
+	font-size: 16px;
+	padding: 0 7px;
+}
+.select-location {
+	width: 93%;
+	margin: auto;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	margin-top: 1rem;
+	padding: 1rem 0;
+}
+.signup {
+    text-align: center;
+    font-size: 42px;
+}
+.primary-input:focus {
+	background-color: #d8ecec;
+	border-radius: 3px;
+}
+.field-icon,
+.fa-eye-slash {
+	float: right;
+	margin-left: -25px;
+	margin-top: 9px;
+	position: relative;
+	z-index: 2;
+}
+.data-section {
+	text-align: center;
+}
+.blue-btn {
+	color: #fff;
+	background: blue;
+	border: none;
+	margin: 15px;
+	padding: 6px 14px;
+	border-radius: 30px;
+}
+.data-section input {
+	border: none;
+	background: lightgrey;
+	padding: 8px 15px;
+	font-size: 15px;
+	border-radius: 30px;
+	width: 74%;
+	margin: 8px 0;
+}
+.data-section input:focus {
+	border: none;
+	outline: none;
+}
+

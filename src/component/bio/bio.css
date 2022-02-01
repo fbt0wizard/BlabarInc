@@ -1,0 +1,86 @@
+.skip button {
+	color: #fff;
+	background: blue;
+	border: none;
+	font-size: 19px;
+	padding: 6px 31px;
+	border-radius: 30px;
+	float: right;
+	margin-right: 23px;
+	display: flex;
+	align-items: center;
+}
+.skip {
+	width: 100%;
+	height: 46px;
+	margin-top: 3rem;
+}
+.instruct {
+	text-align: center;
+	margin: 16px 0;
+	font-weight: 500;
+}
+
+.dir {
+	font-size: 26px;
+	text-align: start;
+	width: 70%;
+	margin: 58px auto;
+	font-weight: 600;
+}
+.upload input {
+	display: none;
+}
+.upload {
+	position: relative;
+	width: max-content;
+	margin: auto;
+}
+.bio-data {
+	margin: 43px 0;
+}
+.bio-data label {
+	display: grid;
+	font-size: 24px;
+	font-weight: 600;
+	width: 78%;
+	margin: auto;
+}
+.bio-data textarea {
+	border: none;
+	border-bottom: 1.5px solid #000;
+	font-size: 20px;
+	padding: 6px 6px;
+}
+.bio-data textarea:focus {
+	border: none;
+	outline: none;
+	background-color: lightgray;
+	border-bottom: 1.5px solid #000;
+}
+.btn-submit {
+	width: max-content;
+	margin: auto;
+	margin-top: 2rem;
+}
+.primary-button {
+	background: linear-gradient(90deg, #97c6fa 0%, #bface9 58.85%, #d5a0d7 77.6%, #ed9798 100%);
+	border-radius: 27px;
+	font-size: 18px;
+	padding: 10px 76px;
+	border: none;
+}
+.uploadStyle {
+    position: absolute;
+    bottom: 2px;
+    right: 0;
+    background: blue;
+    color: #fff;
+    border-radius: 30px 11px 6px 5px;
+    padding: 6px;
+    width: 33px;
+    height: 33px;
+}
+.icon27 {
+    margin-left: 5px;
+}

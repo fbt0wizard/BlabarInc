@@ -1,0 +1,33 @@
+.bottom-nav {
+	background-color: #000;
+	position: sticky;
+	position: -webkit-sticky;
+	bottom: 0;
+	width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.linkstyle {
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	line-height: 13px;
+}
+.home24 {
+	width: 24px;
+}
+.span24 {
+	color: #8c8c8c;
+	font-size: 13px;
+	text-align: center;
+}
+.icon-one {
+	font-size: 27px;
+	color: #8c8c8c;
+}
+.icon-two {
+	font-size: 40px;
+	color: #8c8c8c;
+}

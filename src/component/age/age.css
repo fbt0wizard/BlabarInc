@@ -1,0 +1,41 @@
+.instruction {
+	width: 92%;
+	margin: 12px auto;
+	font-weight: 500;
+	font-size: 17px;
+}
+.age {
+	width: 93%;
+	margin: auto;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	margin-top: 1rem;
+	padding: 1rem 0;
+}
+.up-level,
+.down-level {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin: 31px 0;
+}
+.up-level div,
+.down-level div {
+	background: blue;
+	font-size: 14px;
+	color: #fff;
+	padding: 9px 0;
+	border-radius: 30px;
+	width: 160px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 42px;
+}
+.choosen {
+    color: yellow;
+    margin-right: 5px;
+    font-size: 16px;
+}
+.hide {
+    display: none;
+}
