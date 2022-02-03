@@ -20,9 +20,6 @@ import { Channel } from "./pages/channel/Channel";
 import { ChannelDetails } from "./pages/channel-details/ChannelDetails";
 
 function App() {
-const ernest = (username) => {
-  console.log(username)
-}
 
   const [userDetails, setUserDetails] = useState({
     email: "",

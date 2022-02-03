@@ -8,7 +8,6 @@ import { useNavigate } from "react-router-dom";
 const Signup = ({ handleUser, ernest }) => {
   useEffect(() => {
     document.title = "Sign Up";
-    ernest('ernestpossible');
   },[]);
   const showPassword = (e) => {
     var element = document.getElementById("password");
