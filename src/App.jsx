@@ -16,8 +16,14 @@ import Verify_email from "./component/verifyEmail/Verify_email";
 import Dashboard from "./pages/dashboard/Dashboard";
 import Howto from "./component/howTo/Howto";
 import Bio from "./component/bio/Bio";
+import { Channel } from "./pages/channel/Channel";
+import { ChannelDetails } from "./pages/channel-details/ChannelDetails";
 
 function App() {
+const ernest = (username) => {
+  console.log(username)
+}
+
   const [userDetails, setUserDetails] = useState({
     email: "",
     password: "",
@@ -86,7 +92,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/signup" element={<Signup handleUser={handleUser} />} />
+        <Route path="/signup" element={<Signup handleUser={handleUser} ernest={ernest} />} />
         <Route
           path="/signin"
           element={
@@ -121,6 +127,8 @@ function App() {
           }
         />
         <Route path="/bio" element={ <Bio bio={bio} authUser={authUser}/> } />
+        <Route path="/channel" element={ <Channel /> } />
+        <Route path="/channel-details" element={ <ChannelDetails /> } />
         <Route
           path="/dashboard"
           element={<Dashboard loginDetails={loginDetails} verify={verify} />}
