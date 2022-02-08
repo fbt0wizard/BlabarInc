@@ -5,6 +5,7 @@ import DriveFileRenameOutlineRoundedIcon from "@mui/icons-material/DriveFileRena
 import SpaRoundedIcon from "@mui/icons-material/SpaRounded";
 import page from "../../images/page.png";
 import prof from "../../images/prof.png";
+import Post from "../../component/post/Post";
 
 export const ChannelDetails = () => {
   return (
@@ -60,7 +61,7 @@ export const ChannelDetails = () => {
             <button className="contenders">Contenders</button>
           </div>
           <div className="the-drag">
-            
+            <Post />
           </div>
         </div>
       </div>

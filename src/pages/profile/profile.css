@@ -1,0 +1,88 @@
+
+.profile-params h3 {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+.profile-params h3 img {
+    margin-left: 4px;
+}
+.profile-person {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem 0;
+}
+.step2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    margin: 7px 0;
+}
+.followers, .followings, .profile-drags {
+    text-align: center;
+}
+.follow-btn {
+    display: flex;
+    align-items: center;
+    border: none;
+    background: blue;
+    color: #fff;
+    padding: 5px 55px;
+    border-radius: 30px;
+    margin: 1rem 0;
+}
+.icon-add {
+    margin-left: 6px;
+}
+.stats-char p {
+    display: flex;
+    justify-content: center;
+}
+.icon40 {
+    margin-left: 5px;
+}
+.stats {
+    margin: 0 5px;
+    color: green;
+}
+.switch {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border-bottom: 1px solid #999;
+    margin-top: 1rem;
+}
+.switch div {
+    width: 50%;
+    padding: 12px 0;
+}
+.dragsides {
+    border-bottom: 1px solid #000;
+}
+.contenders-sides p {
+    color: #999;
+}
+.contenders-sides p span {
+    color: red;
+    font-size: 12px;
+}
+.profile-map {
+    background-color: #fff;
+    padding-top: 11px;
+    width: 93%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+.channel-link {
+    color: #000;
+}
+.to-channel {
+    text-align: center;
+    font-size: 13px;
+}

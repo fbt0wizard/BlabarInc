@@ -1,0 +1,20 @@
+.CircularProgressbar-text {
+    font-size: 40px !important;
+    fill: green !important;
+}
+.resend-code {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.circular {
+    margin-left: 5px;
+    width: 32px !important;
+}
+.count-down {
+    color: red;
+}
+.CircularProgressbar-path {
+    stroke: #34A853 !important;
+}

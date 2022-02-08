@@ -1,9 +1,14 @@
+import './verifyEmail.css';
 import { useSpring, animated } from "react-spring";
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { CircularProgressbar } from 'react-circular-progressbar';
+import 'react-circular-progressbar/dist/styles.css';
 
 const Verify_email = ({ logo, email }) => {
   const navigate = useNavigate();
+
+  const value = 30;
 
   const handleClick = (e) => {
     e.preventDefault();
@@ -60,6 +65,12 @@ const Verify_email = ({ logo, email }) => {
           >
             Continue
           </button>
+        </div>
+        <div className="resend-code">
+          <p>Didn't get the code?</p>
+          <div className="count-down">
+          <CircularProgressbar className="circular" value={value} maxValue={1} text={`${value}s`} />
+          </div>
         </div>
       </div>
     </animated.div>

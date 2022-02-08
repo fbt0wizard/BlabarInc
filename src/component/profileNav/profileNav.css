@@ -1,0 +1,32 @@
+.profile-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 1rem auto;
+}
+.profile-nav-wrapper {
+    border-bottom: 1px solid #999;
+}
+.message-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #979797;
+    border: none;
+    color: #fff;
+    padding: 9px 14px;
+    border-radius: 30px;
+    font-size: 13px;
+}
+.back-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+}
+.icon34 {
+    font-size: 16px !important;
+    margin-left: 3px;
+}

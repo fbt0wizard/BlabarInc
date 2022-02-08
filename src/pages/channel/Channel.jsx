@@ -6,7 +6,7 @@ import av3 from '../../images/av3.png';
 import av4 from '../../images/av4.png';
 import SearchIcon from '@mui/icons-material/Search';
 import CommentRoundedIcon from '@mui/icons-material/CommentRounded';
-import CompareArrowsRoundedIcon from '@mui/icons-material/CompareArrowsRounded';
+import MovingIcon from '@mui/icons-material/Moving';
 
 export const Channel = () => {
   return <div className='channel'>
@@ -53,17 +53,17 @@ export const Channel = () => {
         </div>
       <div className="trending-list">
         <h3>La casa de papel</h3>
-        <div><CompareArrowsRoundedIcon className='red'/> </div>
+        <div><MovingIcon className='red'/> </div>
         <div className='count'><CommentRoundedIcon className='icon30'/> 887k</div>
       </div>
       <div className="trending-list">
         <h3>Money Heist</h3>
-        <div><CompareArrowsRoundedIcon className='green'/> </div>
+        <div><MovingIcon className='green'/> </div>
         <div className='count'><CommentRoundedIcon className='icon30'/> 887k</div>
       </div>
       <div className="trending-list">
         <h3>After Hours</h3>
-        <div><CompareArrowsRoundedIcon className='green'/> </div>
+        <div><MovingIcon className='green'/> </div>
         <div className='count'><CommentRoundedIcon className='icon30'/> 887k</div>
       </div>
   </div>;

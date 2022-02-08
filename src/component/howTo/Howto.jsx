@@ -1,3 +1,4 @@
+import './howTo.css';
 import React, { useEffect, useState } from "react";
 import { useSpring, animated } from "react-spring";
 import Age from "../age/Age";

@@ -18,6 +18,7 @@ import Howto from "./component/howTo/Howto";
 import Bio from "./component/bio/Bio";
 import { Channel } from "./pages/channel/Channel";
 import { ChannelDetails } from "./pages/channel-details/ChannelDetails";
+import { Profile } from "./pages/profile/Profile";
 
 function App() {
 
@@ -89,7 +90,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/signup" element={<Signup handleUser={handleUser} ernest={ernest} />} />
+        <Route path="/signup" element={<Signup handleUser={handleUser}/>} />
         <Route
           path="/signin"
           element={
@@ -126,6 +127,7 @@ function App() {
         <Route path="/bio" element={ <Bio bio={bio} authUser={authUser}/> } />
         <Route path="/channel" element={ <Channel /> } />
         <Route path="/channel-details" element={ <ChannelDetails /> } />
+        <Route path="/profile" element={ <Profile /> } />
         <Route
           path="/dashboard"
           element={<Dashboard loginDetails={loginDetails} verify={verify} />}
