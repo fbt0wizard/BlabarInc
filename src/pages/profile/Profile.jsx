@@ -83,7 +83,7 @@ export const Profile = () => {
                 <figure className="figure25 figure">
                   <img className="img-post" src={trav1} />
                   <figcaption className="caption">
-                    <span>The chip 1</span>
+                    <span>The Sprite</span>
                   </figcaption>
                   <figcaption className="voted">
                     <StarRoundedIcon className="star24" />
@@ -93,7 +93,7 @@ export const Profile = () => {
                 <figure className="figure25 figure">
                   <img className="img-post" src={trav3} />
                   <figcaption className="caption">
-                    <span>The 2</span>
+                    <span>The Burger</span>
                   </figcaption>
                   <figcaption className="voted">
                     <StarRoundedIcon className="star24" />
@@ -104,7 +104,7 @@ export const Profile = () => {
                 <figure className="figure25 figure">
                   <img className="img-post" src={trav2} />
                   <figcaption className="caption">
-                    <span>The chip</span>
+                    <span>The Chip</span>
                   </figcaption>
                   <figcaption className="voted">
                     <StarRoundedIcon className="star24" />
@@ -114,7 +114,7 @@ export const Profile = () => {
                 <figure className="figure25 figure">
                   <img className="img-post" src={trav4} />
                   <figcaption className="caption">
-                    <span>The sprite</span>
+                    <span>The Chilli</span>
                   </figcaption>
                   <figcaption className="voted">
                     <StarRoundedIcon className="star24" />
