@@ -1,0 +1,26 @@
+.result-comp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 93%;
+    margin: 1rem auto;
+    padding: .6rem 0;
+    border-top: 1px solid #999;
+}
+.number-counts {
+    background: blue;
+    color: #fff;
+    padding: 5px 9px;
+    border-radius: 50%;
+    font-size: 14px;
+}
+.result-data {
+    line-height: 30px;
+}
+.upper p span, .lower {
+    font-weight: 300;
+    font-size: 15px;
+}
+.upper p {
+    font-weight: 600;
+}

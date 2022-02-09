@@ -19,6 +19,8 @@ import Bio from "./component/bio/Bio";
 import { Channel } from "./pages/channel/Channel";
 import { ChannelDetails } from "./pages/channel-details/ChannelDetails";
 import { Profile } from "./pages/profile/Profile";
+import { ChannelExpand } from "./pages/channel-expand/ChannelExpand";
+import { SearchPage } from "./pages/search-page/SearchPage";
 
 function App() {
 
@@ -128,6 +130,8 @@ function App() {
         <Route path="/channel" element={ <Channel /> } />
         <Route path="/channel-details" element={ <ChannelDetails /> } />
         <Route path="/profile" element={ <Profile /> } />
+        <Route path="/channel-expand" element={ <ChannelExpand /> } />
+        <Route path="/search" element={ <SearchPage /> } />
         <Route
           path="/dashboard"
           element={<Dashboard loginDetails={loginDetails} verify={verify} />}

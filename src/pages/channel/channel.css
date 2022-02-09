@@ -66,9 +66,9 @@
 }
 .trending-list {
     display: flex;
-    justify-content: space-around;
-    width: 100%;
-    margin: 1.5rem 0;
+    justify-content: space-between;
+    width: 93%;
+    margin: 1.5rem auto;
 }
 .icon30 {
     font-size: 16px !important;
