@@ -1,0 +1,17 @@
+.chat-box {
+    background-color: blue;
+    padding: .8rem;
+    border-radius: 6px;
+    display: inline-block;
+    text-align: left;
+    width: 80%;
+    margin-right: 3.5%;
+}
+.chat-box p {
+    color: #fff;
+    width: 80%;
+}
+.chat-box-wrapper {
+    width: 100%;
+    text-align: right;
+}

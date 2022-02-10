@@ -1,0 +1,15 @@
+.chat-content {
+    background-color: #c4c4c4;
+    width: 100%;
+    padding: .8rem;
+    border-radius: 6px;
+}
+.user-two {
+    display: flex;
+    align-items: flex-start;
+    width: 93%;
+    margin: 1rem auto;
+}
+.user-two img {
+    margin-right: 10px;
+}

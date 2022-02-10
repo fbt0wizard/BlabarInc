@@ -21,6 +21,7 @@ import { ChannelDetails } from "./pages/channel-details/ChannelDetails";
 import { Profile } from "./pages/profile/Profile";
 import { ChannelExpand } from "./pages/channel-expand/ChannelExpand";
 import { SearchPage } from "./pages/search-page/SearchPage";
+import { Message } from "./pages/message/Message";
 
 function App() {
 
@@ -132,6 +133,7 @@ function App() {
         <Route path="/profile" element={ <Profile /> } />
         <Route path="/channel-expand" element={ <ChannelExpand /> } />
         <Route path="/search" element={ <SearchPage /> } />
+        <Route path="/message" element={ <Message /> } />
         <Route
           path="/dashboard"
           element={<Dashboard loginDetails={loginDetails} verify={verify} />}

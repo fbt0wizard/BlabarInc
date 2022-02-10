@@ -1,0 +1,25 @@
+.message-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 93%;
+    margin: auto;
+    
+}
+.message-wrapper {
+    background-color: #d9d9d9;
+    padding: 1rem 0;
+}
+.candidate {
+    display: flex;
+    align-items: center;
+}
+.pics-header {
+    margin-right: 16px;
+}
+.icon-back {
+    font-size: 33px !important;
+}
+.icon-info {
+    font-size: 33px !important;
+}
