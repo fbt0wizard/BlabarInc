@@ -113,15 +113,17 @@ const Dashboard = ({ loginDetails, verify }) => {
   
 
   return (
-    <div className="dashboard">
+    <>
+        <div className="dashboard">
       <Nav logo={logo} ghost={ghost} timer={timer} handleSwap={handleSwap} swap={swap}/>
       {swap ? (
         <Hero datas={datas} handleVote={handleVote} />
       ) : (
         <PeopleYouFollow />
       )}
-      <BottomNav home={homeLogo} />
     </div>
+    <BottomNav home={homeLogo} />
+    </>
   );
 };
 

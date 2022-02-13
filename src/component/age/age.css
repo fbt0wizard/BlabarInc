@@ -39,3 +39,10 @@
 .hide {
     display: none;
 }
+.age-section {
+	display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+	justify-content: space-between;
+}

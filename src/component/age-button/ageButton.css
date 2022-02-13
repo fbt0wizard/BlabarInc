@@ -1,0 +1,29 @@
+.age-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c4c4c4;
+    width: max-content;
+    margin: 5px 0;
+    width: 120px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 30px;
+}
+.active-age-btn {
+    background-color: blue !important;
+}
+.star-icon {
+    color: gold;
+    font-size: 16px !important;
+    visibility: hidden;
+}
+.visible {
+    visibility: visible !important;
+}
+.age-value {
+    text-align: center;
+    color: #fff;
+    flex: 0.8;
+    font-size: 13px;
+}

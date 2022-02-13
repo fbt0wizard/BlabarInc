@@ -1,10 +1,16 @@
 import "./age.css";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { useSpring, animated } from "react-spring";
 import UserBlabar from "../userBlabar/UserBlabar";
-import StarRoundedIcon from "@mui/icons-material/StarRounded";
+import { AgeButton } from "../age-button/AgeButton";
+import {manageAge} from "../../data";
 
 const Age = ({ blabar, verify, age, handleAge}) => {
+  const [ageData, setAgeData] = useState([])
+
+  useEffect(() => {
+    setAgeData(manageAge)
+  }, [])
   const props = useSpring({
     to: {
       opacity: 1,
@@ -16,6 +22,22 @@ const Age = ({ blabar, verify, age, handleAge}) => {
     },
     delay: 500,
   });
+
+  const selectAge = (id) => {
+    let newState = ageData;
+    let prep = [];
+    newState.map((item, i) => {
+      if(item.id == id) {
+        item.selected = true;
+        prep.push(item)
+      }else {
+        item.selected = false;
+        prep.push(item)
+      }
+    })
+    setAgeData(prep)
+  }
+
   return (
     <animated.div style={props}>
       <div className="age">
@@ -25,17 +47,12 @@ const Age = ({ blabar, verify, age, handleAge}) => {
           WHATS YOUR GENDER
         </h3>
         <div className="age-section">
-            <div className="up-level">
-                <div onClick={handleAge}> <StarRoundedIcon className={age === "0-13" ? "choosen" : "none"} /> 0-13</div>
-                <div onClick={handleAge}> <StarRoundedIcon className={age === "13-20 yrs" ? "choosen" : "none"} /> 13-20 yrs</div>
-            </div>
-            <div className="down-level">
-                <div onClick={handleAge}> <StarRoundedIcon className={age === "20-40 yrs" ? "choosen" : "none"} /> 20-40 yrs</div>
-                <div onClick={handleAge}> <StarRoundedIcon className={age === "40-60 yrs" ? "choosen" : "none"} /> 40-60 yrs</div>
-            </div>
+          {ageData.map((item, i) =>(
+              <AgeButton key={i} item={item} selectAge={selectAge}/>
+          ) )}
         </div>
       </div>
-    </animated.div>
+   </animated.div>
   );
 };
 
