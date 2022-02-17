@@ -22,6 +22,8 @@ import { Profile } from "./pages/profile/Profile";
 import { ChannelExpand } from "./pages/channel-expand/ChannelExpand";
 import { SearchPage } from "./pages/search-page/SearchPage";
 import { Message } from "./pages/message/Message";
+import { NewPost } from "./pages/new-post/NewPost";
+import { PostDetails } from "./pages/new-post2/PostDetails";
 
 function App() {
 
@@ -134,6 +136,8 @@ function App() {
         <Route path="/channel-expand" element={ <ChannelExpand /> } />
         <Route path="/search" element={ <SearchPage /> } />
         <Route path="/message" element={ <Message /> } />
+        <Route path="/new_post" element={ <NewPost /> } />
+        <Route path="/new_post_details" element={ <PostDetails /> } />
         <Route
           path="/dashboard"
           element={<Dashboard loginDetails={loginDetails} verify={verify} />}

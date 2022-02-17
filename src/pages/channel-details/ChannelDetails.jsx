@@ -1,23 +1,18 @@
 import React from "react";
 import "./channelDetails.css";
-import ArrowBackRoundedIcon from "@mui/icons-material/ArrowBackRounded";
 import DriveFileRenameOutlineRoundedIcon from "@mui/icons-material/DriveFileRenameOutlineRounded";
 import SpaRoundedIcon from "@mui/icons-material/SpaRounded";
 import page from "../../images/page.png";
 import prof from "../../images/prof.png";
 import Post from "../../component/post/Post";
+import { Back } from "../../component/back/Back";
 
 export const ChannelDetails = () => {
   return (
     <div>
       <div className="channel-details"></div>
       <div className="blur">
-        <div className="back">
-          <button>
-            <ArrowBackRoundedIcon />
-            Back
-          </button>
-        </div>
+        <Back />
         <div className="content-hero">
           <div className="channel-name">
             <p className="tittle">Money Hiest Channel</p>

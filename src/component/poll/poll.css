@@ -1,0 +1,22 @@
+.center-img {
+    width: max-content;
+    margin: auto;
+}
+.click-me button {
+    color: #fff;
+    border: none;
+    background: blue;
+    font-size: 18px;
+    padding: 6px 11px;
+    border-radius: 30px;
+    margin: 0 0 1rem 1rem;
+}
+.video button {
+    background-color: red !important;
+}
+.poll {
+    width: 95%;
+    margin: 1.5rem auto;
+    border: 2px solid #333;
+    padding: 1rem 0;
+}
