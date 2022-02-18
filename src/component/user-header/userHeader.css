@@ -1,0 +1,29 @@
+.profile-set {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.mylink {
+    margin-right: 14px;
+}
+.img25 {
+    margin: 0px 7px 0 2px;
+}
+.h325 {
+    font-weight: 400;
+    font-size: 17px;
+}
+.btn25 {
+    background: none;
+    border: none;
+    margin-left: 24px;
+}
+.icon25 {
+    font-size: 31px;
+}
+.hide {
+    display: none;
+}
+.dark-text {
+    color: #fff !important;
+}

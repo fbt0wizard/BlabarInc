@@ -24,6 +24,9 @@ import { SearchPage } from "./pages/search-page/SearchPage";
 import { Message } from "./pages/message/Message";
 import { NewPost } from "./pages/new-post/NewPost";
 import { PostDetails } from "./pages/new-post2/PostDetails";
+import { ImagePost } from "./pages/image-post/ImagePost";
+import { PreviewPost } from "./pages/preview-post/PreviewPost";
+import { FinishPost } from "./pages/finishPost/FinishPost";
 
 function App() {
 
@@ -138,6 +141,9 @@ function App() {
         <Route path="/message" element={ <Message /> } />
         <Route path="/new_post" element={ <NewPost /> } />
         <Route path="/new_post_details" element={ <PostDetails /> } />
+        <Route path="/image_post" element={ <ImagePost /> } />
+        <Route path="/preview_post" element={ <PreviewPost /> } />
+        <Route path="/finish_post" element={ <FinishPost /> } />
         <Route
           path="/dashboard"
           element={<Dashboard loginDetails={loginDetails} verify={verify} />}

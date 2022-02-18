@@ -1,0 +1,33 @@
+.post-fieldset {
+    width: 90%;
+    margin: 1rem auto;
+    border: 2px solid #333;
+}
+.post-fieldset legend {
+    text-align: center;
+    padding: 0 10px;
+    font-size: 22px;
+}
+.post-fieldset input {
+    width: 100%;
+    height: 50px;
+    margin: 1px 0;
+    padding: 3px 16px;
+    border: none;
+}
+.post-fieldset input:focus {
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.input-count {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+}
+.input-count span {
+    color: #34A853;
+    font-size: 15px;
+    margin-left: 3px;
+}

@@ -14,7 +14,6 @@ import { useNavigate } from "react-router-dom";
 import Nav from "../../component/topNav/Nav";
 import Hero from "../../component/hero/Hero";
 import PeopleYouFollow from "../../component/peopleYouFollow/PeopleYouFollow";
-import { FortTwoTone } from "@mui/icons-material";
 
 const Dashboard = ({ loginDetails, verify }) => {
   const navigate = useNavigate();

@@ -1,0 +1,63 @@
+.preview-post {
+    background: #000;
+    height: 100vh;
+}
+.user-profile-header {
+    margin-top: 2rem;
+}
+.post-tittle {
+    color: #fff;
+    width: 85%;
+    margin: 2rem auto;
+}
+.post-display {
+    width: 100%;
+}
+.post-display img {
+    width: 100%;
+}
+.input-caption {
+    padding: 6px 0;
+}
+.input-caption label {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: 2rem auto;
+    border-radius: 30px;
+    justify-content: center;
+    padding: 0 .7rem;
+}
+.input-caption label input {
+    width: 90%;
+    border: none;
+    text-align: center;
+    height: 43px;
+    outline: none;
+    font-size: 17px;
+}
+.input-caption label input:focus {
+    font-size: 19px;
+}
+.upload-button button {
+    color: #fff;
+    background: blue;
+    border: none;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: .8rem 4rem;
+    display: flex;
+    align-items: center;
+}
+.upload-button {
+    width: max-content;
+    margin: 0 auto;
+}
+.upload-arrow {
+    margin-right: 4px;
+}
+.preview-image {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}

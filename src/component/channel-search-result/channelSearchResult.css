@@ -1,0 +1,8 @@
+.channel-search-result-list {
+    display: flex;
+    align-items: center;
+    margin: .7rem 0;
+}
+.channel-search-result-list img {
+    margin-right: 13px;
+}

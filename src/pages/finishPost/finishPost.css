@@ -1,0 +1,32 @@
+.topic {
+    width: 80%;
+    margin: 2rem auto;
+    text-align: start;
+    font-weight: 400;
+}
+.search-channel label {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    margin: 1rem auto;
+    border: 1.5px solid #333;
+    padding: 1.5rem 1rem;
+    position: relative;
+}
+.search-channel label input {
+    border: none;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+.the-search-icon {
+    font-size: 30px !important;
+}
+.channel-search-result {
+    border: 1.5px solid #333;
+    padding: 1rem;
+    width: 75%;
+    margin: -10px auto 0 auto;
+}
